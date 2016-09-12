@@ -1,0 +1,38 @@
+    <!doctype html>
+    <html lang="en" ng-app="myApp">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=normal-dpi" />
+        <title>Kitchen Sink</title>
+        <link rel="stylesheet" href="css/font-awesome.min.css"/>
+        <link rel="stylesheet" href="css/app.css"/>
+    </head>
+    <body>
+
+        <!-- Main view -->
+        <div ui-view></div>
+
+        <!-- Cordova -->
+        <script type="text/javascript" src="cordova.js"></script>
+        <!--Libraries-->
+        <script src="lib/angular/angular.js"></script>
+        <script src="lib/angular/angular-route.js"></script>
+        <script src="lib/angular/angular-ui-router.js"></script>
+        <script src="lib/angular/angular-translate.min.js"></script>
+        <script src="lib/angular/i18n/angular-locale_de-de.js"></script>
+        <script src="lib/jquery/jquery-1.11.3.min.js"></script>
+        <!--Main-->
+        <script src="js/controllers/main.js"></script>
+        <!-- Services-->
+        <script src="js/services/PhpService.js"></script>
+        <script src="js/services/GlobalFlagService.js"></script>
+        <script src="js/services/StateService.js"></script>
+        <!-- Controllers-->
+        <script src="js/controllers/firstController.js"></script>
+        <script src="js/controllers/secondController.js"></script>
+        <!-- Filters -->
+        <script src="js/filters.js"></script>
+        <!-- Directive -->
+        <script src="js/directives.js"></script>
+    </body>
+    </html>
